@@ -50,8 +50,9 @@ if __name__ == "__main__":
                 start_close = new_close
                 cash_money += sum
                 print("********************************************************")
+                print(f"Date: {index}")
                 print(f"Stocks: {stocks} = {stocks * new_close}")
                 print(f"Cash: {cash_money}")
-                print(f"Date: {index}")
+                print(f"Total: {cash_money + stocks * new_close}")
     print("Done")
     exit()
